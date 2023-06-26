@@ -227,3 +227,17 @@ footer .colonnes {
 	justify-content: space-between;
 }
 /* Fin du pied de page */
+
+
+@media screen and (max-width: 610px){
+	.banner__title {
+		display:none;
+	}
+
+	.banner__description{
+		display:none;
+	}
+	.banner{
+		height: 251px;
+	}
+}
