@@ -78,7 +78,7 @@ nav .droite p {
 	justify-content: space-between;
 	padding: 20px;
 	/* background-color: #111; */
-	z-index: 1;
+	z-index: 40;
 	transition-timing-function: ease-in;
 	transition: all 0.5s;
 }
@@ -92,13 +92,13 @@ nav .droite p {
 	max-height: 200px;
 	margin-right: 10px;
 	transition: transform 300ms;
-	cursor:pointer;
+	cursor: pointer;
 }
 
 .new {
 	min-width: 200px;
-	min-height:200px;
-	object-fit:fill;
+	min-height: 200px;
+	object-fit: fill;
 }
 
 .row__posters {
@@ -228,16 +228,19 @@ footer .colonnes {
 }
 /* Fin du pied de page */
 
-
-@media screen and (max-width: 610px){
+@media screen and (max-width: 610px) {
 	.banner__title {
-		display:none;
+		display: none;
 	}
 
-	.banner__description{
-		display:none;
+	.banner__description {
+		display: none;
 	}
-	.banner{
+	.banner {
 		height: 251px;
+	}
+
+	nav .gauche .onglets {
+		display: none;
 	}
 }
